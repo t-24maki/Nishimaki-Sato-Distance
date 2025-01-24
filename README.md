@@ -1,4 +1,4 @@
-Phylogenetic analysis script using NJ method with genetic distances considering nucleotide/amino acid insertions/substitutions, as published in the following paper:
+Phylogenetic analysis script using NJ method with genetic distances considering nucleotide/amino acid insertions/deletions, as published in the following paper:
 
 - T.Nishimaki, K.Sato, “An Extension of the Kimura Two-Parameter Model to the Natural Evolutionary Process.” Journal of molecular evolution 87.1 (2019): 60-67. (https://link.springer.com/article/10.1007/s00239-018-9885-1)
 
@@ -6,7 +6,7 @@ Phylogenetic analysis script using NJ method with genetic distances considering 
 
 
 # How To Use
-- Run the first cell
-- In Execution, specify aligned sequence file name in alignment_file
-- Set seq_type to NUCLEOTIDE or AMINO_ACID
-- Script outputs Newick format phylogenetic tree and evolutionary distance matrix
+- Run the first cell.
+- Under "Execution" cell, specify aligned sequence file name in "alignment_file".
+- Set seq_type to NUCLEOTIDE or AMINO_ACID.
+- Script outputs Newick format phylogenetic tree and evolutionary distance matrix.
